@@ -1,0 +1,146 @@
+body{
+   font-family: "Inter", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   margin: 0;
+   min-height: 100vh;
+   background: 
+    linear-gradient(rgba(245, 247, 251, 0.85), rgba(245, 247, 251, 0.85)),
+    url("images/pexels-visneligunce-8685447.jpg");
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+    color: #1f2937;
+}
+
+#header h1{
+    text-align: center;
+    margin-top: 15px;
+}
+.container {
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.search-container {
+    padding: 12px;
+}
+
+#searchInput {
+    padding: 12px;;
+    width: 750px;
+    max-width: 100%;
+    border-radius: 10px;
+    border: 1px solid #d1d5db;
+    background: #eef2ff;
+    outline: none;
+}
+
+::placeholder {
+    color: #9ca3af;
+}
+
+button {
+    background: #4c5fd5;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a5b4fc;
+}
+
+#result {
+    width: 100%;
+    max-width: 750px;
+    padding: 20px;
+    background: #e0e7ff;
+    color: #1f2937;
+    border-radius: 15px;
+    border: 1px solid #e5e7eb;
+}
+
+#result h2 {
+    margin-bottom: 6px;
+    color: #4c5fd5;
+}
+
+#result p {
+    margin: 5px 0;
+}
+
+.meaning-block {
+    padding: 18px;
+    margin-top: 10px;
+    background: #f5f3ff;
+    border-radius: 8px;
+}
+
+.meaning-block ul {
+    padding-left: 20px;
+}
+
+.meaning-block li {
+    margin-bottom: 6px;
+}
+
+.example {
+    font-style: italic;
+    color: #6b7280;
+}
+
+audio {
+    margin-top: 10px;
+    width: 100%;
+}
+
+body.dark-mode{
+    /* background-color: #0b1220; */
+    color: #e5e7eb;
+    background: 
+    linear-gradient(rgba(11, 18, 32, 0.9), rgba(11, 18, 32, 0.9)),
+    url("images/pexels-visneligunce-8685447.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+body.dark-mode #result {
+  background: #111827;
+  border-color: #1f2937;
+  color: #e5e7eb;
+}
+
+body.dark-mode #result h2 {
+  color: #93c5fd;
+}
+
+body.dark-mode #searchInput {
+  background: #1f2937;
+  border: 1px solid #374151;
+  color: #e5e7eb;
+}
+
+body.dark-mode ::placeholder {
+  color: #9ca3af;
+}
+
+body.dark-mode .meaning-block {
+  background: #1f2937;
+  color: #e5e7eb;
+}
+
+body.dark-mode button {
+  background: #6366f1;
+  color: #ffffff;
+}
+
+body.dark-mode button:hover {
+  background: #818cf8;
+}
